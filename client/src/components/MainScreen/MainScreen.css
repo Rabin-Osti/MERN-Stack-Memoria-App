@@ -1,0 +1,18 @@
+.app-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.all-component-wrapper{
+width: 50vw;
+display: flex;
+flex-direction: column;
+gap: 3rem;
+/* margin: 0 auto; */
+}
+.inner-app-wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}

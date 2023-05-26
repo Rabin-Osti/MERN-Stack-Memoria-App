@@ -1,0 +1,40 @@
+.story-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 2rem;
+    background: white;
+  }
+  .ind-story-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  .ind-story-wrapper img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .ind-story-wrapper span {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+  .add-circle{
+      border-radius: 50%;
+      padding: 0.5rem;
+      background-color: white;
+  
+  }
+  .align-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      color: var(--color-primary);
+  }
+  

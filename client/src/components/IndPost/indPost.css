@@ -1,0 +1,123 @@
+.ind-wrapper {
+  max-width: 100%;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: var(--text-primary);
+  background-color: white;
+}
+.ind-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ind-top img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.ind-info {
+  display: flex;
+  flex-direction: column;
+}
+.ind-info :first-child {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.ind-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.ind-content>img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.ind-content>span{
+  font-size: 1.6rem;
+}
+.ind-actions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+.ind-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.ind-icons:hover{
+  cursor: pointer;
+}
+.ind-comment-section{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.ind-comment-post{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.ind-comment-post button{
+  outline: none;
+  width: fit-content;
+  border: none;
+  font-size: 1.2rem;
+  background-color: var(--color-primary);
+  padding: 0.5em 1.5em;
+  color: white;
+  transition: all 0.2s ease;
+}
+.ind-comment-post button:hover{
+    background-color: #151875;
+    cursor: pointer;
+  
+}
+.ind-comment-top{
+  display: flex;
+  gap: 1rem;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.ind-comment-top img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ind-comment-top input{
+  border: 2px solid lightgray;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.ind-comment-post input{
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-right: 1rem;
+}
+.ind-comment-content{
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.ind-comment-text{
+  font-size: 1.5rem;
+  display: block;
+  margin-top: -0.5rem;
+}
+

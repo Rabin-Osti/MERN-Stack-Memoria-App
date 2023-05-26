@@ -1,0 +1,8 @@
+.profile-screen-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    
+}

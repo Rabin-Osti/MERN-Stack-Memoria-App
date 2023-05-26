@@ -1,0 +1,65 @@
+.follow-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  height: fit-content;
+}
+.follow-container h3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.inner-follow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+.inner-follow button {
+  background-color: none;
+  border: none;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 500;
+  padding: 0.5em 1.4em;
+  border-radius: 0.2em;
+  transition: all 0.1s ease-in-out;
+}
+.inner-follow button:hover {
+  cursor: pointer;
+}
+.followed {
+  background-color: #151875;
+}
+.notFollowed {
+  background-color: var(--color-primary);
+}
+.notFollowed:hover {
+  background-color: #151875;
+}
+.followed:hover {
+  background-color: var(--color-primary);
+}
+
+.ind-follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.ind-follow img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.ind-follow span {
+  font-size: 1.6rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  width: 150px; /* the element needs a fixed width (in px, em, %, etc) */
+  overflow: hidden; /* make sure it hides the content that overflows */
+  white-space: nowrap; /* don't break the line */
+  text-overflow: ellipsis; /* give the beautiful '...' effect */
+}
